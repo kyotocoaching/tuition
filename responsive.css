@@ -1,0 +1,131 @@
+@media(max-width:1150px){
+  .header-contact{
+    display: none;
+  }
+  .Toggle{
+      display: block;
+    }
+  .header-logo-right{
+    display: none;
+  }
+  .service-top-container h2{
+    width:50%;
+  }
+  .last-btn{
+    width:50%;
+    font-size:20px;
+  }
+}
+@media(max-width:780px){
+  .image-container{
+  display: block;
+  }
+  .Toggle{
+    display: block;
+  }
+  .fa-icons{
+    width:55%;
+    margin:0 auto;
+  }
+  .bottom-icons{
+    display: none;
+  }
+  .point{
+    padding-top:30px;
+  }
+  .point1::after{
+    height:25%;
+  }
+  .point2::after{
+    height:25%;
+  }
+  .point3::after{
+    height:30%;
+    width:65%;
+  }
+  .point4::after{
+    height:30%;
+    width:65%;
+  }
+  .service-top-container h2{
+    width:60%;
+  }
+  .service-top-container h2,p{
+    font-size:16px;
+  }
+  .service-top-container p{
+    letter-spacing:1px;
+    line-height:30px;
+  }
+  .service-top-container h1{
+    font-size:24px;
+  }
+  .s-top p{
+    font-size:14px;
+    line-height: 23px;
+  }
+  .s-top h2{
+    font-size:20px;
+    line-height: 32px;
+    margin:0 50px;
+    letter-spacing: 1px;
+  }
+  .service-top-container p,.s-bottom p{
+    font-size:15px;
+  }
+  .s-top p::after{
+    content:"";
+    height:20px;
+    width:30px;
+    border-bottom:2px solid #202020;
+    display: block;
+   margin:0 auto;
+  }
+  .s-bottom{
+    margin-top:40px;
+  }
+  .s-bottom p{
+    text-align:left;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-left:20px;
+  }
+  .p1-container h2{
+    font-size:22px;
+  }
+  .p1-container p{
+    font-size:14px;
+    line-height:25px;
+  }
+  .last-btn{
+    width:50%;
+    font-size:16px;
+  }
+}
+@media  (max-width:670px){
+  .foot-bar{
+    height: 188px;
+  }
+  .btn-wrapper{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 188px;
+    text-align: center;
+
+  }
+  .footer-btn{
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    line-height: 47px;
+    margin: 0;
+  }
+
+  footer p{
+    font-size: 8px;
+  }
+  .last-btn br{
+  display:block;
+  }
+}
